@@ -48,7 +48,7 @@
 * 加密：chacha20-ietf-poly1305
 * 插件选项: tls;host=应用程序名.herokuapp.com;path=/自定义UUID码-ss
 
-
+<details>
 ### CloudFlare Workers反代代码（支持VLESS\VMESS\Trojan-Go的WS模式，可分别用两个账号的应用程序名（UUID与path保持一致），单双号天分别执行，那一个月就有550+550小时）
 
 ```
@@ -73,7 +73,9 @@ addEventListener(
     }
 )
 ```
+<details>
 ----------------------------------------------------------------------------------------------
+<details>
 ```
 const Day0 = 'app0.herokuapp.com'
 const Day1 = 'app1.herokuapp.com'
@@ -108,5 +110,6 @@ addEventListener(
     }
 )
 ```
+<details>
 
 ### 原作者项目地址：https://github.com/mixool/xrayku
